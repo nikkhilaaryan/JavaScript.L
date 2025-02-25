@@ -34,4 +34,33 @@ console.log(bigNumber);
             }
             
             console.log(typeof anotherId);
+
+            //                                    --Memory--
+            // There are two types of Memory 
+            // 1. Stack Memory (Primitive)
+            let languageName = "JavaSrcipt";
+            let newLanguageName = languageName;
+             newLanguageName = "Python";
+
+             console.log(languageName);
+            console.log(newLanguageName);
+
+            //Example 02
+            let userAlpha = {
+                email : "alpha@hotmail.com"
+                // upi  : "alpha@oksbi"
+            }
+             let userBeta = userAlpha;
+
+             userBeta.email = "user@hotmail.com"
+
+             console.log(userAlpha.email);
+             console.log(userBeta.email);
+             
+            
+            
+
+            // 2. Heap Memory  (Non-Primitive OR Refrence Type)
+
+            
             
