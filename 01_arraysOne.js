@@ -1,5 +1,5 @@
 //  arrays
-//In JavaScript arrays can be resizable and can contain diffrent data types.
+//In JavaScript arrays can be resizable and can contain different data types.
 //
 //
 const isArr = [1, 4, 2, 6, 7, 8,];
@@ -10,7 +10,7 @@ console.log(isArr);
 
 // console.log(isArrTwo);
 
-// console.log(isArr[0]); // arryas can be accessed by this syntax.
+// console.log(isArr[0]); // arrays can be accessed by this syntax.
 // // In JavaScript while using array-copy-operations it create shallow operations.
 
 // //Arrays Method
@@ -46,7 +46,7 @@ console.log("C ", isArr);
 
 console.log(isn2);
 
-// The main diffrence between slice and splice.
+// The main difference between slice and splice.
 // [ 1, 4, 2, 6, 7, 8 ]
 // A  [ 1, 4, 2, 6, 7, 8 ]
 // [ 4, 2 ]
