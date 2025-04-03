@@ -60,6 +60,31 @@ users[1].email;
                                                                         [ 'isLoggedIn', false ]
  //                                                                ] 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+//Destructing of Objects
+const course = {
+    coursename: "JavaS",
+    price: "999",
+    courseInstructor: "Programmer X"
+
+}
+//course.courseInstructor
+const {courseInstructor: instructor} = course
+console.log(course);
+
+// {
+//     "course": "CodeX",
+//     "courseInstructor": "JavaS",
+//     "coursePrice": "999"
+// }
+
+[
+    {},
+    {},
+    
+]
+ 
                                                                
 
                                                                  
