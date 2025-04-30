@@ -33,7 +33,12 @@
 let val1;
 // val1 = 5 ?? 10;
 // val1 = null ?? 10;
-var1  = undefined ?? 10; 
+// val1  = undefined ?? 10; 
+val1 = null??10??23;
 console.log(val1);
-console.log(var1 );
+ 
 
+//Terinary Operator
+//syntax: condition ? true : false
+const itemPrice = 145;
+itemPrice >= 125 ? console.log("Expensive") : console.log("Feasible"); // Output : Expensive
